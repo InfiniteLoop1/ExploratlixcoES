@@ -1,0 +1,318 @@
+body {        
+  width: 100%;
+  height: 100%;
+		margin: 0;
+	padding: 0;
+    background-color: dodgerblue;
+    overflow:hidden;
+}
+
+      .slideout-menu {
+        position:fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        width: 73.2%;
+          height: 100%;
+        overflow-y:hidden;
+        -webkit-overflow-scrolling: touch;
+        display: none;
+      }
+
+      .slideout-panel {
+        position: absolute;
+        z-index: 1;
+          padding: 0;
+          margin: 0;
+          height: 100%;
+          height: auto;
+          margin-bottom: 0%;
+          padding-bottom: 0%;
+      }
+
+      .slideout-open,
+      .slideout-open body,
+      .slideout-open .slideout-panel {
+        overflow: hidden;
+          width: 100%;
+          margin-left: .6%;
+      }
+
+      .slideout-open .slideout-menu {
+        display: block;
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          
+      }
+
+.blue-navbar img{
+    width: 18%;
+    padding-top: 19%;
+    margin-left: 6%;
+    position: absolute;
+}
+
+.blue-navbar{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 18%;
+    margin: 0;
+    padding: 0;
+    margin-top: -5.6%;
+}
+
+.saludo{
+    margin-left: 28%;
+    padding-top: 24%;
+    color: white;
+    font-family:monospace;
+    font-size: 15px;
+}
+
+.saludo2{
+    margin-top: -5.2%;
+    margin-left: 28%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.white-navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: -18%;
+    background-color: lightgray;
+}
+
+
+.white-navbar img{
+    width: 10%;
+    text-align: left;
+    margin-left: -11%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-decoration: none;
+    position: absolute;
+}
+
+.white-navbar ul{
+    background-color: white;
+    text-decoration: none;
+    height: 0%;
+    margin: 0;
+}
+
+.white-navbar li{
+    text-decoration: none;
+    display: block;
+}
+
+.white-navbar p{
+    padding: 0;
+    margin: 0;
+    color: #545454;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.white-navbar a{
+    text-decoration: none;
+}
+
+.opciones{
+    margin-top: 18%;
+}
+
+.navcontent{
+    height: 44.8%;
+    background-color: white;
+    width: 100%;
+    margin-top: -1%;
+}
+
+.redesnav{
+    width: 100%;
+    height: 9%;
+}
+
+.redesnav img{
+    margin-top: 75%;
+    width: 14%;
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;
+}
+
+
+.navlang{
+    padding-left:16%;
+    background-color: lightgray;
+    height: 10%;
+    margin-top: 82%;
+    width: 84%;
+    padding-bottom: 4%;
+}
+
+
+.navlang img{
+    width: 30%;
+    margin-top: 3%;
+    margin-right: 16.9%;
+}
+
+header{
+    width: 100%;
+    max-width: 100%;
+    height:0%;
+    background-color: dodgerblue;
+    margin: 0;
+    padding: 0;
+}
+
+#logomenu{
+    width: 8%;
+    margin-left: 36%;
+    position: absolute;
+    margin-top: .3%;
+}
+
+#btn-menu{
+    display: none;
+}
+
+.tooltip img{
+    width: 7%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#texto{
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+
+
+#texto p{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 15%;
+    font-size: 18px;
+    
+}
+
+.slideout-open #texto p{
+        color: white;
+    font-family: sans-serif;
+    margin-top: 5%;
+    font-size: 18px;
+    
+}
+
+.slideout-open #texto{
+        padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 8.3%;
+    text-align: center;
+    background-color: dodgerblue;
+    padding-bottom: .004%;
+}
+
+
+.slideout-open .bloqueo
+{
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    height: 100%;
+    margin-left: -9%;
+    margin-top: -2.6%;
+}
+
+
+#menu2{
+    display: none;
+    background-color: white;
+    text-decoration: none;
+}
+
+#menu3{
+    position: absolute;
+    width: 84%;
+    margin-left: 15%;
+    padding-top: 1%;
+    text-decoration: none;
+}
+
+.submenu{
+    display: none;
+    text-decoration: none;
+}
+
+#menu2:checked ~ .submenu{
+    display:block;
+   padding-top: 15%;
+    margin-left: 0%;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#menu2:checked ~ .submenu a {
+    text-decoration: none;
+    color: #545454;
+    font-size: 17px;  
+}
+
+#menu2:checked ~ .submenu a div{
+    width: 84%;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+}
+
+#menu2:checked ~ .submenu a div img{
+    width:  8%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-left: -12%;
+    margin-top: -.5%;
+}
+
+#menu3 img{
+    width: 12%;
+}
+
+.logoatlix{
+    width: 18%;
+    z-index: 3;
+    margin-left: 41%;
+    margin-right: 41%;
+    margin-top: -9%;
+    position: absolute;
+}
+
+.w3-left{
+    margin-left: 3%;
+    margin-bottom: 45%;
+    color: white;
+        font-size: 35px;
+}
+
+.w3-right{
+    margin-right: 3%;
+    color: white;
+    font-size: 35px;
+}
