@@ -312,14 +312,14 @@ header{
 
 .category_list .category_item{
 	padding: 10px;
-    
+    font-size: 9.6px;
 	background-color: dodgerblue;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
     display: inline-block;
     margin-top: 3%;
-    margin-left: .06%;
+    margin-left: .9%;
     border-radius: 25px;
 }
 
@@ -376,5 +376,6 @@ header{
 }
 
 #relax{
-    margin-left: 35%;
+    margin-left: 40%;
+    margin-top: 1%;
 }
